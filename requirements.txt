@@ -12,3 +12,4 @@ azure-search-documents
 streamlit
 python-dotenv
 requests
+openpyxl

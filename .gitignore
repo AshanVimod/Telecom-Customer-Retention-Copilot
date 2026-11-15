@@ -6,6 +6,11 @@
 __pycache__/
 .ipynb_checkpoints/
 
+# local training runs
+mlruns/
+mlflow.db
+outputs/
+
 # dataset is downloaded, not committed
 data/*.csv
 data/*.xlsx

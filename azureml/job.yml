@@ -1,0 +1,28 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+experiment_name: churn-xgb
+display_name: xgb-depth3-lr0.03
+
+# WHAT to run: this folder is uploaded, then the command runs inside it
+code: ../src/train
+command: >-
+  python train.py
+  --data ${{inputs.data}}
+  --model_dir ${{outputs.model_output}}
+  --max_depth 3 --learning_rate 0.03 --n_estimators 600
+
+# WITH WHAT data: version 1 of the data asset you registered
+inputs:
+  data:
+    type: uri_file
+    path: azureml:telco-churn:1
+
+# WHERE results go: a folder in blob storage that Azure ML creates for this job
+outputs:
+  model_output:
+    type: uri_folder
+
+# IN WHAT software: the environment (Docker image) defined in env.yml
+environment: azureml:churn-env@latest
+
+# ON WHAT hardware: the cluster you created in Phase 0
+compute: azureml:cpu-cluster

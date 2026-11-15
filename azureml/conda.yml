@@ -1,0 +1,16 @@
+name: churn-env
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      # pinned to the versions tested locally, so cloud runs match your laptop
+      - pandas==3.1.1
+      - scikit-learn==1.9.1
+      - xgboost==3.2.0
+      - shap==0.51.0
+      - matplotlib
+      - joblib
+      # MLflow client + the plugin that sends runs to the Azure ML workspace
+      - mlflow-skinny
+      - azureml-mlflow
