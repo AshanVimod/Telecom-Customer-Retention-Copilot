@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+xgboost
+shap
+mlflow
+matplotlib
+jupyter
+azure-ai-ml
+azure-identity
+openai
+azure-search-documents
+streamlit
+python-dotenv
+requests
