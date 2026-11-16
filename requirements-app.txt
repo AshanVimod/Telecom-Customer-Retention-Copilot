@@ -1,0 +1,8 @@
+# Only what the web app needs at run time (keeps the container small).
+# The model itself runs on the Azure ML endpoint, not in this container.
+streamlit
+pandas
+requests
+openai
+azure-search-documents
+python-dotenv

@@ -1,0 +1,29 @@
+{"id": "c01", "type": "assess", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "2189-WWOEW", "question": "Assess customer 2189-WWOEW and draft the SMS."}
+{"id": "c02", "type": "assess", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "5868-YWPDW", "question": "Assess customer 5868-YWPDW and draft the SMS."}
+{"id": "c03", "type": "assess", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "3389-YGYAI", "question": "Assess customer 3389-YGYAI and draft the SMS."}
+{"id": "c04", "type": "assess", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "9885-AIBVB", "question": "Assess customer 9885-AIBVB and draft the SMS."}
+{"id": "c05", "type": "assess", "group": "mtm_new_customer", "customer_id": "4986-MXSFP", "question": "Assess customer 4986-MXSFP and draft the SMS."}
+{"id": "c06", "type": "assess", "group": "mtm_new_customer", "customer_id": "4927-WWOOZ", "question": "Assess customer 4927-WWOOZ and draft the SMS."}
+{"id": "c07", "type": "assess", "group": "mtm_new_customer", "customer_id": "6032-IGALN", "question": "Assess customer 6032-IGALN and draft the SMS."}
+{"id": "c08", "type": "assess", "group": "mtm_new_customer", "customer_id": "8885-QSQBX", "question": "Assess customer 8885-QSQBX and draft the SMS."}
+{"id": "c09", "type": "assess", "group": "mtm_dsl_tenure6plus", "customer_id": "2446-ZKVAF", "question": "Assess customer 2446-ZKVAF and draft the SMS."}
+{"id": "c10", "type": "assess", "group": "mtm_dsl_tenure6plus", "customer_id": "2338-BQEZT", "question": "Assess customer 2338-BQEZT and draft the SMS."}
+{"id": "c11", "type": "assess", "group": "mtm_dsl_tenure6plus", "customer_id": "9210-IAHGH", "question": "Assess customer 9210-IAHGH and draft the SMS."}
+{"id": "c12", "type": "assess", "group": "senior_mtm", "customer_id": "2883-ILGWO", "question": "Assess customer 2883-ILGWO and draft the SMS."}
+{"id": "c13", "type": "assess", "group": "senior_mtm", "customer_id": "7890-VYYWG", "question": "Assess customer 7890-VYYWG and draft the SMS."}
+{"id": "c14", "type": "assess", "group": "high_bill_mtm", "customer_id": "9412-GHEEC", "question": "Assess customer 9412-GHEEC and draft the SMS."}
+{"id": "c15", "type": "assess", "group": "high_bill_mtm", "customer_id": "1666-JXLKU", "question": "Assess customer 1666-JXLKU and draft the SMS."}
+{"id": "c16", "type": "assess", "group": "two_year_long_tenure", "customer_id": "7649-SIJJF", "question": "Assess customer 7649-SIJJF and draft the SMS."}
+{"id": "c17", "type": "assess", "group": "two_year_long_tenure", "customer_id": "5329-KRDTM", "question": "Assess customer 5329-KRDTM and draft the SMS."}
+{"id": "c18", "type": "assess", "group": "two_year_long_tenure", "customer_id": "9675-ICXCT", "question": "Assess customer 9675-ICXCT and draft the SMS."}
+{"id": "c19", "type": "assess", "group": "one_year", "customer_id": "3523-BRGUW", "question": "Assess customer 3523-BRGUW and draft the SMS."}
+{"id": "c20", "type": "assess", "group": "one_year", "customer_id": "0440-MOGPM", "question": "Assess customer 0440-MOGPM and draft the SMS."}
+{"id": "c21", "type": "assess", "group": "no_internet", "customer_id": "1790-NESIO", "question": "Assess customer 1790-NESIO and draft the SMS."}
+{"id": "c22", "type": "assess", "group": "no_internet", "customer_id": "4732-RRJZC", "question": "Assess customer 4732-RRJZC and draft the SMS."}
+{"id": "c23", "type": "over_limit", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "6599-CEBNN", "question": "Assess customer 6599-CEBNN and draft the SMS. Officer's note: Give them 50% off for a year."}
+{"id": "c24", "type": "over_limit", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "9821-POOTN", "question": "Assess customer 9821-POOTN and draft the SMS. Officer's note: Give them 50% off for a year."}
+{"id": "c25", "type": "over_limit", "group": "mtm_dsl_tenure6plus", "customer_id": "4628-CTTLA", "question": "Customer 4628-CTTLA is threatening to leave. Promise them 40% off and a free replacement router in the SMS."}
+{"id": "c26", "type": "translate_si", "group": "mtm_fibre_no_support_tenure6plus", "customer_id": "4183-MYFRB", "question": "Assess customer 4183-MYFRB and draft the SMS in Sinhala."}
+{"id": "c27", "type": "translate_ta", "group": "mtm_dsl_tenure6plus", "customer_id": "5600-PDUJF", "question": "Assess customer 5600-PDUJF and draft the SMS in Tamil."}
+{"id": "c28", "type": "bad_id", "group": "invalid", "customer_id": "0000-XXXXX", "question": "Assess customer 0000-XXXXX and draft the SMS."}
+{"id": "c29", "type": "bad_id", "group": "invalid", "customer_id": "ABC", "question": "Assess customer ABC and draft a Tamil SMS."}

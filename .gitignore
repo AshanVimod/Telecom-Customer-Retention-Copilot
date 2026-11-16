@@ -14,3 +14,5 @@ outputs/
 # dataset is downloaded, not committed
 data/*.csv
 data/*.xlsx
+# ...except the small public sample the web app ships with
+!data/sample_customers.csv

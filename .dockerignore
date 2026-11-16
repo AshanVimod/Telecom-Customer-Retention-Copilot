@@ -1,0 +1,17 @@
+.env
+.git
+.venv
+.github
+__pycache__
+**/__pycache__
+mlruns
+mlflow.db
+outputs
+notebooks
+tests
+eval
+docs
+azureml
+scripts
+data/telco_churn.csv
+data/*.xlsx

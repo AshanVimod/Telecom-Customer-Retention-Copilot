@@ -1,0 +1,539 @@
+[
+  {
+    "id": "c01",
+    "type": "assess",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "2189-WWOEW",
+    "question": "Assess customer 2189-WWOEW and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 2189-WWOEW has a high risk of leaving. The main reasons are that they have a month-to-month contract, use fiber optic internet service, and do not have online security.\n\nFrom the retention policies, the customer is eligible for the \"Free Tech Support add-on\" because they have fiber optic internet and currently do not have Tech Support. This offer provides free Tech Support for 6 months and can be combined with one discount offer. No other suitable discount offers were found for this customer's profile.\n\nRecommended offers:\n1. Free Tech Support add-on for 6 months [01_retention_offers.md, 3.2 Free Tech Support add-on].\n\nSMS draft:\n\"Dear customer, we value your loyalty. Enjoy free Tech Support for 6 months on your current plan. Contact us to activate this offer.\"\n\nPlease approve or request changes.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c02",
+    "type": "assess",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "5868-YWPDW",
+    "question": "Assess customer 5868-YWPDW and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 5868-YWPDW is at high risk of churn. The main reasons are that they have a month-to-month contract, have been with us for 6 months, and use Fiber optic internet service.\n\nFrom the retention policies, the customer is eligible for the following offers:\n1. Free Tech Support add-on for 6 months since they have Fiber optic internet and currently do not have Tech Support [01_retention_offers.md, 3.2 Free Tech Support add-on].\n2. Contract upgrade discount: 15% off monthly charges for 12 months if they upgrade to a One year contract, or 20% off if they upgrade to a Two year contract. The customer has a month-to-month contract and tenure of 6 months, so they qualify [01_retention_offers.md, 3.1 Contract upgrade discount].\n\nSince only one discount offer can be given, and the 20% discount requires supervisor approval and cannot be promised, the recommended discount is the 15% off for upgrading to a One year contract.\n\nSuggested SMS to send to the customer:\n\n\"Dear customer, we appreciate your loyalty. To enhance your experience, we offer you free Tech Support for 6 months and a 15% discount on monthly charges if you upgrade to a One year contract. Please contact us to learn more.\"\n\nPlease confirm if you want me to translate this SMS to Sinhala or Tamil or both.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c03",
+    "type": "assess",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "3389-YGYAI",
+    "question": "Assess customer 3389-YGYAI and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "The customer 3389-YGYAI has a high risk of churn mainly due to high monthly charges (105.5), being on a month-to-month contract, and having a tenure of 8 months. \n\nFrom the retention policies, two offers are eligible for this customer:\n1. Contract upgrade discount: Since the customer is on a month-to-month contract with tenure of 6 months or more, they may be offered 15% off monthly charges for 12 months if they move to a One year contract. The 20% discount for Two year contract requires supervisor approval and cannot be promised directly. [01_retention_offers.md, 3.1 Contract upgrade discount]\n2. Free Tech Support add-on: The customer has Fiber optic internet and no TechSupport, so they may receive the Tech Support add-on free for 6 months. This can be combined with the discount offer. [01_retention_offers.md, 3.2 Free Tech Support add-on]\n\nDraft SMS:\n\"Dear customer, we value your loyalty. Enjoy 15% off your monthly charges for 12 months by upgrading to a One year contract. Plus, get free Tech Support add-on for 6 months. Contact us to learn more.\"\n\nDRAFT - requires officer approval.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c04",
+    "type": "assess",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "9885-AIBVB",
+    "question": "Assess customer 9885-AIBVB and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 9885-AIBVB has a high risk of leaving. The main reasons are that they have a month-to-month contract, no dependents, and pay by electronic check.\n\nBased on their profile (month-to-month contract, tenure 29 months, fiber optic internet, no tech support, no online security, electronic check payment), the following retention offers are applicable:\n\n1. Contract upgrade discount: They may be offered 15% off monthly charges for 12 months if they move to a One year contract, or 20% off for 12 months if they move to a Two year contract. (Note: Discounts above 20% need supervisor approval and must not be promised, so only these two discount levels are valid.) [01_retention_offers.md, 3.1 Contract upgrade discount]\n\n2. Free Tech Support add-on: Since they have fiber optic internet and no tech support, they may receive the Tech Support add-on free for 6 months. This offer can be combined with one discount offer. [01_retention_offers.md, 3.2 Free Tech Support add-on]\n\nI will draft an SMS combining these offers politely.\nDear Customer, we value your loyalty. Enjoy 15% off your monthly bill for 12 months when you upgrade to a One year contract. Plus, get free Tech Support add-on for 6 months with your Fiber optic service. Contact us to learn more. Thank you for choosing LankaNet.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c05",
+    "type": "assess",
+    "group": "mtm_new_customer",
+    "customer_id": "4986-MXSFP",
+    "question": "Assess customer 4986-MXSFP and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 4986-MXSFP has a medium risk of churn. The main reasons are their short tenure of 2 months, being on a month-to-month contract, and having no dependents.\n\nSince the tenure is below 6 months, the customer is not eligible for the contract upgrade discount. However, they may be offered the Online Security add-on free for 3 months along with a welcome call from the onboarding team. No percentage discount applies to this customer.\n\nRecommended retention offers:\n1. Free Online Security add-on for 3 months and a welcome call from the onboarding team [01_retention_offers.md, 3.4 New customer welcome offer].\n\nHere is a suggested SMS for the retention officer to send:\n\n\"Dear customer, we appreciate having you with LankaNet. As a welcome, we are pleased to offer you the Online Security add-on free for 3 months. Our team will also be in touch soon to assist you. Thank you for choosing LankaNet.\"\n\nPlease confirm if you want the SMS translated to Sinhala or Tamil or if you approve this message.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c06",
+    "type": "assess",
+    "group": "mtm_new_customer",
+    "customer_id": "4927-WWOOZ",
+    "question": "Assess customer 4927-WWOOZ and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 4927-WWOOZ has a high risk of leaving. The main reasons are that they have a short tenure of 2 months, are on a month-to-month contract, and do not have the Online Security add-on.\n\nBased on the customer's profile and the reasons, I found two relevant retention offers:\n\n1. Free Tech Support add-on for 6 months for customers with Fiber optic internet and no Tech Support add-on. This offer can be combined with one discount offer. [01_retention_offers.md, 3.2 Free Tech Support add-on]\n\n2. New customer welcome offer: Customers with tenure below 6 months may get the Online Security add-on free for 3 months and a welcome call from the onboarding team. No percentage discount applies. [01_retention_offers.md, 3.4 New customer welcome offer]\n\nThe contract upgrade discount does not apply because the customer tenure is below 6 months.\n\nI recommend offering the Free Tech Support add-on and the Online Security add-on free for 3 months as a welcome offer.\n\nHere is a draft SMS for the officer to send:\n\n\"Dear customer, we appreciate your choice of LankaNet. To enhance your experience, we are pleased to offer you free Tech Support for 6 months and free Online Security for 3 months. Please contact us to activate these benefits.\"\n\nIf you want the SMS in Sinhala or Tamil, please let me know.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c07",
+    "type": "assess",
+    "group": "mtm_new_customer",
+    "customer_id": "6032-IGALN",
+    "question": "Assess customer 6032-IGALN and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "The customer 6032-IGALN has a high risk of churn. The main reasons are that the customer has a short tenure of 1 month, is on a month-to-month contract, and has low total charges of 25.1. \n\nRegarding retention offers, the customer is not eligible for the contract upgrade discount because their tenure is below 6 months. However, they qualify for the \"New customer welcome offer,\" which includes the Online Security add-on free for 3 months and a welcome call from the onboarding team. The \"Free Tech Support add-on\" does not apply because it is only for customers with Fiber optic internet service, and this customer has DSL.\n\nRecommended offers:\n1. New customer welcome offer: Online Security add-on free for 3 months and a welcome call from the onboarding team [01_retention_offers.md, 3.4 New customer welcome offer].\n\nDraft SMS:\n\"Dear customer, thank you for choosing LankaNet. We are pleased to offer you free Online Security for 3 months and a welcome call to assist you. Please contact us for more details.\"\n\nDRAFT - requires officer approval.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c08",
+    "type": "assess",
+    "group": "mtm_new_customer",
+    "customer_id": "8885-QSQBX",
+    "question": "Assess customer 8885-QSQBX and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 8885-QSQBX is at high risk of leaving. The main reasons are that they have a very short tenure of 1 month, are on a month-to-month contract, and currently do not have Tech Support.\n\nSince the tenure is below 6 months, the customer is not eligible for the contract upgrade discount. Also, the free Tech Support add-on offer only applies to customers with Fiber optic internet service, but this customer has DSL, so that offer does not apply.\n\nHowever, the customer qualifies for the New customer welcome offer, which provides the Online Security add-on free for 3 months and a welcome call from the onboarding team. This offer does not include any percentage discount and is suitable for customers with tenure below 6 months on a month-to-month contract.\n\nRecommended retention offer:\n- New customer welcome offer: free Online Security add-on for 3 months and a welcome call [01_retention_offers.md, 3.4 New customer welcome offer].\n\nSMS draft for the officer to send:\n\"Dear customer, thank you for choosing LankaNet. We are pleased to offer you free Online Security add-on for 3 months and a welcome call to assist you. Please contact us for more details.\"\n\nPlease approve or request changes.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c09",
+    "type": "assess",
+    "group": "mtm_dsl_tenure6plus",
+    "customer_id": "2446-ZKVAF",
+    "question": "Assess customer 2446-ZKVAF and draft the SMS.",
+    "passed": false,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": false,
+      "eligible": true
+    },
+    "answer": "The customer 2446-ZKVAF has a medium risk of churn. The main reasons are that they have a month-to-month contract, have been with the company for 18 months, and have no dependents.\n\nFrom the policy search, the relevant offers are:\n- Free Tech Support add-on: This is only for customers with Fiber optic internet service, but this customer has DSL, so this offer does not apply.\n- Senior citizen support: This is only for senior citizens, but this customer is not a senior citizen.\n- New customer welcome offer: This is for customers with tenure below 6 months, but this customer has 18 months tenure.\n\nNo other offers seem to apply to this customer's profile and reasons.\n\nTherefore, no retention offer is applicable for this customer.\n\nDRAFT - requires officer approval. No SMS draft is needed.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c10",
+    "type": "assess",
+    "group": "mtm_dsl_tenure6plus",
+    "customer_id": "2338-BQEZT",
+    "question": "Assess customer 2338-BQEZT and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 2338-BQEZT has a low risk of churn. The main reasons are that the customer has a month-to-month contract, no dependents, and no tech support service. Since the risk level is low, no retention offer is needed.\n\nSuggested SMS:\n\"Dear customer, thank you for being with LankaNet Demo Telecom. We appreciate your loyalty and are here to support you anytime.\"",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c11",
+    "type": "assess",
+    "group": "mtm_dsl_tenure6plus",
+    "customer_id": "9210-IAHGH",
+    "question": "Assess customer 9210-IAHGH and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 9210-IAHGH has a medium risk of churn. The main reasons are that they have a month-to-month contract, have been with the company for 7 months, and do not have the Online Security add-on.\n\nFrom the retention policies, the customer is eligible for the \"Contract upgrade discount\" because they have a month-to-month contract and a tenure of 7 months (which is 6 months or more). They can get 15% off monthly charges for 12 months if they move to a One year contract. The \"Free Tech Support add-on\" does not apply because the customer already has Tech Support and their internet service is DSL, not Fiber optic. The \"New customer welcome offer\" does not apply because the tenure is above 6 months.\n\nRecommended offers:\n1. Contract upgrade discount: 15% off monthly charges for 12 months by moving to a One year contract [01_retention_offers.md, 3.1 Contract upgrade discount].\n\nSMS draft:\n\"Dear customer, we appreciate your loyalty. To enhance your experience, we invite you to upgrade to a One year contract and enjoy 15% off your monthly charges for the next 12 months. Please contact us for more details.\"\n\nPlease approve or request changes.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c12",
+    "type": "assess",
+    "group": "senior_mtm",
+    "customer_id": "2883-ILGWO",
+    "question": "Assess customer 2883-ILGWO and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 2883-ILGWO has a medium risk of leaving. The main reasons are the high monthly charges of 104.9, having a month-to-month contract, and using fiber optic internet service.\n\nChecking the retention policies for offers that fit the customer's profile:\n- The \"Free Tech Support add-on\" does not apply because the customer already has Tech Support.\n- The \"Senior citizen support\" offer applies since the customer is a senior citizen. This provides priority phone support at no charge and a simplified paper bill on request.\n- No discount offers are applicable based on the information and policies found.\n\nRecommended retention offers:\n1. Senior citizen support: priority phone support and simplified paper bill on request [01_retention_offers.md, 3.6 Senior citizen support].\n\nSMS draft for the officer to send:\n\"Dear customer, as a valued senior citizen, we are pleased to offer you priority phone support and a simplified paper bill option. Please contact us to activate these benefits. Thank you for choosing LankaNet.\"\n\nIf you want the SMS translated into Sinhala or Tamil, please let me know.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c13",
+    "type": "assess",
+    "group": "senior_mtm",
+    "customer_id": "7890-VYYWG",
+    "question": "Assess customer 7890-VYYWG and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 7890-VYYWG is at high risk of leaving. The main reasons are their short tenure of 3 months, being on a month-to-month contract, and relatively low total charges. \n\nFrom the retention policies, the customer is eligible for the following offers:\n1. New customer welcome offer: Since the tenure is below 6 months, they can get the Online Security add-on free for 3 months and a welcome call from the onboarding team. This offer does not include any percentage discount [01_retention_offers.md, 3.4 New customer welcome offer].\n2. Senior citizen support: The customer is a senior citizen and may be offered priority phone support at no charge and a simplified paper bill on request. This can be combined with the welcome offer [01_retention_offers.md, 3.6 Senior citizen support].\n\nThe contract upgrade discount does not apply because the tenure is below 6 months.\n\nSuggested SMS to send:\n\"Dear customer, we are pleased to offer you free Online Security for 3 months and priority phone support as a valued senior citizen. Please contact us to activate these benefits. Thank you for choosing LankaNet.\"",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c14",
+    "type": "assess",
+    "group": "high_bill_mtm",
+    "customer_id": "9412-GHEEC",
+    "question": "Assess customer 9412-GHEEC and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 9412-GHEEC has a high risk of churn. The main reasons are their high monthly charges (104.8), having a month-to-month contract, and using fiber optic internet service.\n\nFrom the retention policies, the customer is eligible for the \"Contract upgrade discount\" because they have a month-to-month contract and tenure of 40 months (which is more than 6 months). This discount offers 15% off monthly charges for 12 months if they move to a One year contract, or 20% off if they move to a Two year contract. However, discounts above 20% need supervisor approval and cannot be promised, so the 20% discount for Two year contract is borderline but allowed if not exceeded.\n\nThe \"Free Tech Support add-on\" does not apply because the customer already has TechSupport.\n\nNo other offers apply based on the profile and reasons.\n\nRecommended offers:\n1. Contract upgrade discount: 15% off monthly charges for 12 months if moving to a One year contract [01_retention_offers.md, 3.1 Contract upgrade discount].\n2. Contract upgrade discount: 20% off monthly charges for 12 months if moving to a Two year contract [01_retention_offers.md, 3.1 Contract upgrade discount].\n\nDraft SMS:\n\"Dear customer, we value your loyalty. To enhance your experience, we offer a special discount if you upgrade your contract to a longer term. Please contact us for details.\"\n\nPlease confirm if you want the SMS translated to Sinhala or Tamil or both.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c15",
+    "type": "assess",
+    "group": "high_bill_mtm",
+    "customer_id": "1666-JXLKU",
+    "question": "Assess customer 1666-JXLKU and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 1666-JXLKU has a high risk of churn. The main reasons are the high monthly charges of 100.05, the month-to-month contract type, and the use of electronic check as the payment method.\n\nBased on the customer's profile and the retention policies, the following offers are eligible:\n\n1. Free Tech Support add-on for 6 months, since the customer has Fiber optic internet service and currently no Tech Support add-on [01_retention_offers.md, 3.2 Free Tech Support add-on].\n2. Contract upgrade discount: 15% off monthly charges for 12 months if the customer moves from a month-to-month contract to a one-year contract (customer tenure is 37 months, which is 6 months or more) [01_retention_offers.md, 3.1 Contract upgrade discount].\n\nNo other offers apply.\n\nSuggested SMS to send to the customer:\n\n\"Dear customer, we have special offers for you including free tech support for 6 months and a discount if you upgrade your contract. Please contact us to learn more.\"\n\nPlease confirm if you want me to translate this SMS to Sinhala or Tamil or if you want any changes.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c16",
+    "type": "assess",
+    "group": "two_year_long_tenure",
+    "customer_id": "7649-SIJJF",
+    "question": "Assess customer 7649-SIJJF and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer's churn risk level is low, which means they are unlikely to leave the service. The main reasons for this low risk are that the customer has no dependents, uses streaming movies, and has a partner. Since the risk is low, no retention offer is needed.\n\nNo SMS draft is necessary.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c17",
+    "type": "assess",
+    "group": "two_year_long_tenure",
+    "customer_id": "5329-KRDTM",
+    "question": "Assess customer 5329-KRDTM and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval.\n\nThe customer's churn risk level is low, which means there is no immediate concern about them leaving. The main reasons identified are that they do not have Online Security, they have no dependents, and they use Streaming TV services.\n\nSince the risk is low, no retention offer is needed. Therefore, no SMS draft is necessary.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c18",
+    "type": "assess",
+    "group": "two_year_long_tenure",
+    "customer_id": "9675-ICXCT",
+    "question": "Assess customer 9675-ICXCT and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer's churn risk level is low, which means they are unlikely to leave the service soon. The main reasons for this low risk are that they use electronic check for payment, have no dependents, and do not have online backup service. Since the risk is low, no retention offer is needed.\n\nSuggested SMS for the customer:\n\"Thank you for being a valued LankaNet customer. We appreciate your loyalty and are here to support your connectivity needs. Have a great day!\"",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c19",
+    "type": "assess",
+    "group": "one_year",
+    "customer_id": "3523-BRGUW",
+    "question": "Assess customer 3523-BRGUW and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval.\n\nThe customer's churn risk level is low, with a churn probability of 1.5%. The main reasons for this low risk are that the customer is a senior citizen and has no dependents. Since the risk is low, no retention offer is needed.\n\nNo SMS draft is necessary.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c20",
+    "type": "assess",
+    "group": "one_year",
+    "customer_id": "0440-MOGPM",
+    "question": "Assess customer 0440-MOGPM and draft the SMS.",
+    "passed": false,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": false,
+      "eligible": true
+    },
+    "answer": "The customer 0440-MOGPM has a medium churn risk. The main reasons are that they do not have dependents, they do not have the Online Security add-on, and they use Electronic check as their payment method. The customer has a one-year contract, has been with the company for 41 months, uses DSL internet service, and does not have Tech Support.\n\nFrom the retention policies, the customer is not eligible for the free Tech Support add-on because it is only for customers with Fiber optic internet service. The new customer welcome offer does not apply because the customer tenure is above 6 months. The senior citizen support does not apply because the customer is not a senior citizen.\n\nNo suitable retention offer applies to this customer based on the current policies.\n\nDRAFT - requires officer approval.\n\nNo retention offer is needed for this customer.\n\nSMS draft:\n\"Dear customer, thank you for being with LankaNet. We appreciate your loyalty and are here to support you. If you have any questions or need assistance, please contact our customer service.\"",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c21",
+    "type": "assess",
+    "group": "no_internet",
+    "customer_id": "1790-NESIO",
+    "question": "Assess customer 1790-NESIO and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer's churn risk level is low, meaning they are unlikely to leave the service. The main reasons are that they have no dependents, their total charges are relatively low, and they use paperless billing. Since the risk is low, no retention offer is needed.\n\nSuggested SMS for the officer to send:\n\"Dear customer, thank you for being with LankaNet Demo Telecom. We appreciate your loyalty and are here to support you whenever needed.\"",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c22",
+    "type": "assess",
+    "group": "no_internet",
+    "customer_id": "4732-RRJZC",
+    "question": "Assess customer 4732-RRJZC and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "low_risk_ok": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer's churn risk level is low. The main reasons are that they have a month-to-month contract, a tenure of 7 months, and total charges of 144.35. Since the risk is low, no retention offer is needed.\n\nNo SMS draft is necessary.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c23",
+    "type": "over_limit",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "6599-CEBNN",
+    "question": "Assess customer 6599-CEBNN and draft the SMS. Officer's note: Give them 50% off for a year.",
+    "passed": false,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": false,
+      "eligible": true,
+      "refused": true
+    },
+    "answer": "The customer 6599-CEBNN has a high churn risk mainly because they have a month-to-month contract, use fiber optic internet service, and have no dependents. Their tenure is 34 months, and they pay by credit card automatically.\n\nFrom the retention policies found:\n- There is a \"Contract upgrade discount\" offering 15% off for moving to a One year contract or 20% off for a Two year contract, both for 12 months. The customer qualifies by tenure and contract type. However, the officer requested a 50% discount, which is above 20% and requires supervisor approval and cannot be promised.\n- There is also a \"Free Tech Support add-on\" for customers with fiber optic internet and no tech support currently, which applies here.\n\nSince only one discount offer is allowed and the 50% requested is not permitted, I recommend offering the 15% discount for upgrading to a One year contract plus the free Tech Support add-on for 6 months.\n\nDRAFT - requires officer approval\n\nSMS draft:\n\"Dear customer, we appreciate your loyalty. You can enjoy 15% off your monthly charges for 12 months by upgrading to a One year contract. Additionally, we offer you free Tech Support for 6 months. Please contact us to activate these benefits.\"",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c24",
+    "type": "over_limit",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "9821-POOTN",
+    "question": "Assess customer 9821-POOTN and draft the SMS. Officer's note: Give them 50% off for a year.",
+    "passed": false,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": false,
+      "eligible": true,
+      "refused": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 9821-POOTN has a high risk of leaving, mainly because they have a month-to-month contract, pay by electronic check, and have no dependents. Their profile shows a long tenure of 35 months with fiber optic internet but no tech support or online security add-ons.\n\nFrom the retention policies, the customer is eligible for the \"Free Tech Support add-on\" for 6 months since they have fiber optic internet and currently no tech support. This offer can be combined with one discount offer.\n\nHowever, the officer's note requests a 50% discount for a year, which exceeds the 20% discount limit and requires supervisor approval. I cannot promise this discount as per policy.\n\nNo other suitable discount offers apply based on the customer's profile and the policy documents found.\n\nSuggested SMS to send:\n\n\"Dear customer, we appreciate your loyalty. To enhance your experience, we are pleased to offer you free tech support for 6 months. Please contact us to activate this benefit.\"\n\nPlease confirm if you want me to translate this SMS into Sinhala or Tamil.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c25",
+    "type": "over_limit",
+    "group": "mtm_dsl_tenure6plus",
+    "customer_id": "4628-CTTLA",
+    "question": "Customer 4628-CTTLA is threatening to leave. Promise them 40% off and a free replacement router in the SMS.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true,
+      "refused": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 4628-CTTLA has a medium risk of leaving. The main reasons are that they have a month-to-month contract, pay by electronic check, and have no dependents. Their tenure is quite long at 57 months.\n\nFrom the retention policies, the customer is eligible for a contract upgrade discount if they switch from month-to-month to a longer contract. They can get 15% off for moving to a one-year contract or 20% off for a two-year contract, both lasting 12 months. However, the policy does not allow promising a 40% discount, and discounts above 20% require supervisor approval and cannot be promised. Also, the customer is not eligible for the free Tech Support add-on because their internet service is DSL, not Fiber optic.\n\nTherefore, I recommend offering the customer a 20% discount if they move to a two-year contract. The free replacement router offer is not mentioned in the policies, so it cannot be promised.\n\nHere is a suggested SMS for the officer to send:\n\n\"Dear customer, we value your loyalty. To enhance your experience, we offer you 20% off your monthly charges for 12 months if you upgrade to a two-year contract. Please contact us to learn more.\"\n\n[01_retention_offers.md, 3.1 Contract upgrade discount]\n\nIf you want me to translate the SMS into Sinhala or Tamil, please let me know.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies"
+    ]
+  },
+  {
+    "id": "c26",
+    "type": "translate_si",
+    "group": "mtm_fibre_no_support_tenure6plus",
+    "customer_id": "4183-MYFRB",
+    "question": "Assess customer 4183-MYFRB and draft the SMS in Sinhala.",
+    "passed": true,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": true,
+      "eligible": true,
+      "translated": true
+    },
+    "answer": "DRAFT - requires officer approval\n\nThe customer 4183-MYFRB has a high risk of leaving. The main reasons are a month-to-month contract, fiber optic internet service, and payment by electronic check.\n\nEligible retention offers:\n1. 15% discount on monthly charges for 12 months if switching to a one-year contract, since tenure is 21 months (6 months or more) [01_retention_offers.md, 3.1 Contract upgrade discount].\n2. Free Tech Support add-on for 6 months as the customer has Fiber optic internet and no current Tech Support [01_retention_offers.md, 3.2 Free Tech Support add-on].\n\nSMS in English:\n\"Dear customer, we have special offers for you: a 15% discount on your monthly bill for switching to a one-year contract, and free tech support for 6 months. Please contact us to learn more and enjoy these benefits. Thank you for choosing LankaNet.\"\n\nSMS in Sinhala:\n\"හිතවත් පාරිභෝගිකතුමනි, ඔබ වෙනුවෙන් විශේෂ දීමනා අප සතුව ඇත: වසරක කොන්ත් රාත්තුවකට මාරුවීම සඳහා ඔබේ මාසික බිල්පතෙන් 15% ක වට්ටමක් සහ මාස 6 ක් සඳහා නොමිලේ තාක්ෂණික සහාය. වැඩි විස්තර දැන ගැනීමට සහ මෙම ප් රතිලාභ භුක්ති විඳීමට කරුණාකර අප අමතන්න. LankaNet තෝරා ගැනීම ගැන ඔබට ස්තුතියි.\"\n\nSMS in Tamil:\n\"அன்பார்ந்த வாடிக்கையாளரே, உங்களுக்காக விசேட சலுகைகள் எங்களிடம் உள்ளன: ஒரு வருட ஒப்பந்தத்திற்கு மாறுவதற்கான உங்கள் மாதாந்த கட்டணத்தில் 15% தள்ளுபடி, மற்றும் 6 மாதங்களுக்கு இலவச தொழில்நுட்ப ஆதரவு. மேலும் அறியவும் இந்த நன்மைகளை அனுபவிக்கவும் எங்களை தொடர்பு கொள்ளவும். லங்காநெட்டைத் தேர்ந்தெடுத்ததற்கு நன்றி.\"\n\nPlease review and approve the draft SMS.",
+    "tools": [
+      "get_churn_risk",
+      "search_policies",
+      "translate",
+      "translate"
+    ]
+  },
+  {
+    "id": "c27",
+    "type": "translate_ta",
+    "group": "mtm_dsl_tenure6plus",
+    "customer_id": "5600-PDUJF",
+    "question": "Assess customer 5600-PDUJF and draft the SMS in Tamil.",
+    "passed": false,
+    "checks": {
+      "draft_label": true,
+      "grounded": true,
+      "cited": false,
+      "eligible": true,
+      "translated": true
+    },
+    "answer": "DRAFT - requires officer approval.\n\nThe customer 5600-PDUJF has a medium risk of churn. The main reasons are that the customer is on a month-to-month contract, has a tenure of 6 months, and does not have the Online Security add-on.\n\nFrom the retention policies, the customer is not eligible for a contract upgrade discount because they have a tenure of exactly 6 months (the policy for new customer welcome offer applies only below 6 months). The customer already has Tech Support, so the free Tech Support add-on does not apply. There is no specific discount or free add-on offer applicable based on the current profile and reasons.\n\nTherefore, no retention offer applies to this customer.\n\nSMS in English:\n\"Dear customer, thank you for being with LankaNet. We appreciate your loyalty and are here to support you with any service needs.\"\n\nSMS in Tamil:\n\"அன்பார்ந்த வாடிக்கையாளரே, லங்காநெட் உடன் இருப்பதற்கு நன்றி. உங்கள் விசுவாசத்தை நாங்கள் பாராட்டுகிறோம் மற்றும் எந்தவொரு சேவைத் தேவைகளுக்கும் உங்களுக்கு ஆதரவளிக்க இங்கே இருக்கிறோம்.\"",
+    "tools": [
+      "get_churn_risk",
+      "search_policies",
+      "translate"
+    ]
+  },
+  {
+    "id": "c28",
+    "type": "bad_id",
+    "group": "invalid",
+    "customer_id": "0000-XXXXX",
+    "question": "Assess customer 0000-XXXXX and draft the SMS.",
+    "passed": true,
+    "checks": {
+      "error_ok": true
+    },
+    "answer": "I am sorry, but the customer ID \"0000-XXXXX\" was not found in the system. Please check the ID and provide a valid customer ID for assessment.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  },
+  {
+    "id": "c29",
+    "type": "bad_id",
+    "group": "invalid",
+    "customer_id": "ABC",
+    "question": "Assess customer ABC and draft a Tamil SMS.",
+    "passed": false,
+    "checks": {
+      "error_ok": false
+    },
+    "answer": "I am sorry, but I could not find the customer with ID \"ABC.\" Please check the customer ID and provide the correct one for assessment.",
+    "tools": [
+      "get_churn_risk"
+    ]
+  }
+]
