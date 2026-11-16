@@ -1,0 +1,20 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: blue
+endpoint_name: churn-ep-av2026
+
+# WHICH model: the one you registered
+model: azureml:churn-model:1
+
+# WHAT code answers requests
+code_configuration:
+  code: ../src/score
+  scoring_script: score.py
+
+# IN WHAT software
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu22.04:latest
+  conda_file: conda.yml
+
+# ON WHAT hardware: a VM that stays on
+instance_type: Standard_DS2_v2
+instance_count: 1

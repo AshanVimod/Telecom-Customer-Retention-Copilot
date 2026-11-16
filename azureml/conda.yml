@@ -14,3 +14,5 @@ dependencies:
       # MLflow client + the plugin that sends runs to the Azure ML workspace
       - mlflow-skinny
       - azureml-mlflow
+      # web server that calls init() and run() in score.py on the endpoint
+      - azureml-inference-server-http
